@@ -1,0 +1,52 @@
+
+gitignore - https://www.atlassian.com/git/tutorials/saving-changes/
+          - https://www.w3schools.com/git/git_ignore.asp
+
+why should we not use CDN links to develop our project?
+    - making a request to fetch react script from CDN is costly,
+      if we have react, already in node modules it is easy to use.
+    - if the react gets updated, we will need to update the
+      CDN Links manually to update react in our project.
+    - managing the react is easy and convinient in package.json.
+
+difference between npm and npx?
+    npm - install package
+    npx - execute package
+
+Read about Script types in html.
+what is type="module" in script tag?
+    - "Browser scripts cannot have imports and exports."
+    - normal js doesnt have imports, we need to specify that
+      it is not normal js file but a module.
+
+/// SEE Notes ///
+Read about dif bundlers: vite, webpack, parcel
+
+What is `Parcel/Webpack`? Why do we need it?
+    - it makes react app fast, how?
+
+parcel 
+    - It gives dev build
+    - It gives local server to host the app.
+    - Error Handling.
+    - HMR - Hot Module Replacement (What is Hot Module Replacement?)
+            parcel uses file watching algorithm written in c++, 
+            It keeps track of all the files 
+            which are changing realtime and 
+            it tells the server to reload.
+    - It gives faster builds because 
+      of caching done in .parcel-cache. (What is `.parcel-cache`)
+    - It also does Image Optimization.
+    - In Production build it will do 
+      Minification, Bundling and Compression.
+    - Consistent Hashing (Learn in detail)
+    - Code Spliting (Learn in detail)
+    - Differential Bundling (Learn in detail)
+    - Tree Shaking algorithm.
+    - Different build for dev and prod.
+
+What is the `dist` folder?
+
+What is `browserlists` ?
+    - https://browserslist.dev/?q=bGFzdCAyIENocm9tZSB2ZXJzaW9u
+
