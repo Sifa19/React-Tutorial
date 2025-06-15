@@ -13,6 +13,7 @@ difference between npm and npx?
     npm - install package
     npx - execute package
 
+/// PENDING
 Read about Script types in html.
 what is type="module" in script tag?
     - "Browser scripts cannot have imports and exports."
@@ -49,4 +50,52 @@ What is the `dist` folder?
 
 What is `browserlists` ?
     - https://browserslist.dev/?q=bGFzdCAyIENocm9tZSB2ZXJzaW9u
+
+
+//REFER NOTES
+
+what is jsx?
+    - jsx is html like syntax.
+    - it is not pure js, js engine wont understand jsx.
+    - js engine only understand ES6 or EcmmaScript
+
+what is Babel?
+    - https://babeljs.io/docs/
+    - Its is not developed by facebook.
+    - jsx code transpiled (converted) 
+      before it reaches the JS Engine.
+
+FLOW OF React.createElement 
+    React.createElement => ReactElement-JS Object => 
+    HTMLElement (this is rendered on browser)
+
+FLOW OF JSX 
+    JSX Code => React.createElement => ReactElement-JS Object => 
+    HTMLElement (this is rendered on browser)
+
+Html tags attributes in jsx? why it is in camel case?
+
+React Element v/s React Components (Class and Functional)
+    - Functional Component : it is a js function which returns jsx code.
+
+What is component composition?
+
+Cross Site Scripting in jsx !important
+
+Key property in React. !important
+    if a component has multiple children, react optimize its
+    render cycle when the children are at same level,
+    they should be unique represented, 
+    if a new component needs to be added to children
+    if we dint had unique key, react will re render all
+    children component because react doesnt know where to 
+    put the new component.
+    but if we had unique key then react wont re render all 
+    components but just the new one.
+    - we shouldnt use index as react key, it is bad practice.
+      why??
+
+/////////////////////////////////////////////////////////
+src folder??
+
 
