@@ -95,7 +95,18 @@ Key property in React. !important
     - we shouldnt use index as react key, it is bad practice.
       why??
 
-/////////////////////////////////////////////////////////
+
 src folder??
+https://legacy.reactjs.org/docs/faq-structure.html
 
+Types of import and exports
+can i use default and named export together?
 
+what is react hook?
+  - normal js utility functions
+  - important hooks - useState - state variable in react, 
+                               - !!!whenever state variable updates 
+                                 react re-renders the component
+                      useEffect
+
+what is state?

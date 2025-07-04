@@ -32,6 +32,7 @@
 .card {
   font-family: Arial, Helvetica, sans-serif;
   width: 300px;
+  height: 400px;
   padding: 12px;
   border: 1px solid rgb(241, 237, 237);
   border-radius: 5px;
@@ -82,4 +83,93 @@
   border: none;
   background-color: inherit;
   font-size: 24px;
+}
+
+.filter-by-ratings {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.filter-by-ratings > button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+.star-filter {
+  color: rgb(250, 218, 39);
+  font-size: 16px;
+  border: 1px solid rgb(243, 240, 225);
+  padding: 3px 6px;
+  border-radius: 20px;
+}
+
+.star-filter:hover {
+  /* border-radius: 5px; */
+  box-shadow: 0px 0px 3px rgb(248, 239, 189);
+}
+
+.tab-container {
+  width: 80%;
+  margin: 10px;
+}
+.tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.tab {
+  width: 80px;
+  font-weight: 600;
+  color: oklch(39.1% 0.09 240.876);
+  background-color: oklch(95.1% 0.026 236.824);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.selected-tab {
+  color: oklch(95.1% 0.026 236.824);
+  background-color: oklch(39.1% 0.09 240.876);
+}
+
+.content {
+  background-color: oklch(95.1% 0.026 236.824);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.content > h2 {
+  color: oklch(39.1% 0.09 240.876);
+}
+
+.button-container,
+button-container2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.button-container > button {
+  border: none;
+  background-color: inherit;
+  font-size: large;
+  cursor: pointer;
+}
+.details {
+  color: oklch(39.1% 0.09 240.876);
+  text-decoration: underline;
+  margin-right: 50%;
+  font-size: 14px !important;
+}
+
+.button-container2 > button {
+  background-color: oklch(39.1% 0.09 240.876);
+  color: oklch(95.1% 0.026 236.824);
+  border: none;
+  font-size: 12px;
+  margin: 10px 20px 0 0;
+  border-radius: 10px;
+  padding: 8px 12px;
 }
