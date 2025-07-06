@@ -110,3 +110,5 @@ what is react hook?
                       useEffect
 
 what is state?
+
+CROS POLICY (Namaste dev cros policy)

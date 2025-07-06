@@ -1,14 +1,18 @@
 import { IMAGE_CDN_URL } from "../utils/constants";
 
 function Card({ data }) {
-  // const { imgSrc, name, rating, dilevery, cusines } = data;
-  const info = data.card;
-  const imgSrc = IMAGE_CDN_URL + info.cloudinaryImageId;
-  const name = info.name;
-  const rating = info.avgRating;
-  const dilevery = info.sla.slaString;
-  const cusines = info.cuisines.join(", ");
-  const costForTow = info.costForTwo;
+  const info = data.card?.card?.info;
+  console.log(info);
+  const {
+    cloudinaryImageId,
+    name,
+    avgRating,
+    sla,
+    cuisines,
+    costForTwoMessage,
+  } = info;
+  const imgSrc = IMAGE_CDN_URL + cloudinaryImageId;
+
   return (
     <div className="card">
       <div className="card-image">
@@ -16,12 +20,12 @@ function Card({ data }) {
       </div>
       <div className="card-details">
         <h3 className="name">{name}</h3>
-        <span className="ratings">⭐ {rating}</span>
+        <span className="ratings">⭐ {avgRating}</span>
         <span> | </span>
-        <span className="dilivery-time">🕧 {dilevery}</span>
+        <span className="dilivery-time">🕧 {sla?.slaString}</span>
         <span> | </span>
-        <span className="cost-for-two"> {costForTow}</span>
-        <p className="cusine"> {cusines}</p>
+        <span className="cost-for-two"> {costForTwoMessage.toLowerCase()}</span>
+        <p className="cusine"> {cuisines.join(", ")}</p>
       </div>
     </div>
   );

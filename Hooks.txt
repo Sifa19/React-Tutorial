@@ -1,0 +1,11 @@
+
+useEffect()
+
+If we have to do something after the rendercycle complets 
+we can pass it inside the ‘ useEffect() ' . 
+this is the actual use case of useEffect. 
+It is really helpful to render data which 
+we will get after the ‘ fetch() ' operation
+‘ useEffect() ' takes two arguments .
+    1. Callback function.
+    2. Dependency Array.

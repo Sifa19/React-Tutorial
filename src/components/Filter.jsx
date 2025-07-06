@@ -1,8 +1,8 @@
 import StarRating from "./atomic/StarRating";
 
-function Search({ setRatingFilter }) {
+function Filter({ setRatingFilter }) {
   return (
-    <div className="serach-bar">
+    <div className="filters">
       <div className="filter-by-ratings">
         <button onClick={() => setRatingFilter(4.5)}>
           <StarRating rating={4.5} />
@@ -18,4 +18,4 @@ function Search({ setRatingFilter }) {
   );
 }
 
-export default Search;
+export default Filter;
