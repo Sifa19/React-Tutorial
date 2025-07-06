@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
-import Filter from "./Filter";
 import Card from "./Card";
-import { cards } from "../utils/mockData";
-import Tab from "./atomic/Tab";
+import ShimmerCard from "./ShimmerCard";
 
-const Body = () => {
-  const [ratingFilter, setRatingFilter] = useState(4.5);
+const Body = ({ ratingFilter }) => {
   const [listOfResturant, setListOfResturant] = useState([]);
 
   useEffect(() => {
@@ -29,11 +26,10 @@ const Body = () => {
     setListOfResturant(updatedList);
   };
 
-  if (listOfResturant.length === 0) return <h1>Loading...</h1>;
-
-  return (
+  return listOfResturant.length === 0 ? (
+    <ShimmerCard />
+  ) : (
     <div className="body">
-      <Filter setRatingFilter={setRatingFilter} />
       <div className="cards-container">
         {listOfResturant.map((data) => (
           <Card key={data?.card?.card?.info?.id} data={data} />
