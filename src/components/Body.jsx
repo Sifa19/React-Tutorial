@@ -11,16 +11,15 @@ const Body = () => {
     (card) => card.card.avgRating >= ratingFilter
   );
 
-  // return (
-  //   <div className="body">
-  //     <Search setRatingFilter={setRatingFilter} />
-  //     <div className="cards-container">
-  //       {listOfResturant.map((data, index) => (
-  //         <Card key={index} data={data} />
-  //       ))}
-  //     </div>
-  //   </div>
-  // );
-  return <Tab />;
+  return (
+    <div className="body">
+      <Search setRatingFilter={setRatingFilter} />
+      <div className="cards-container">
+        {listOfResturant.map((data, index) => (
+          <Card key={index} data={data} />
+        ))}
+      </div>
+    </div>
+  );
 };
 export default Body;
