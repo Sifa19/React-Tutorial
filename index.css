@@ -18,6 +18,7 @@
 .nav-items > ul > li {
   font-size: 22px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .cards-container {
