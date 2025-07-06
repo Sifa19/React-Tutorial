@@ -1,12 +1,17 @@
 
-useState()
+NOTES:
+- Hooks can be used only inside components.
+- always import hooks at top to prevent any inconsistency as react reads code synchronously.
+
+
+###### useState() #######
 This function allows us to update the state and triggers a
 re-render of the component, ensuring our UI is always up-to-date with the
 latest state.
+- never create useState inside loops
 
 
-useEffect()
-
+###### useEffect() #######
 If we have to do something after the rendercycle complets 
 we can pass it inside the ‘ useEffect() ' . 
 this is the actual use case of useEffect. 
@@ -15,3 +20,6 @@ we will get after the ‘ fetch() ' operation
 ‘ useEffect() ' takes two arguments .
     1. Callback function.
     2. Dependency Array.
+        - if no dependency Array useEffect is callled on every render
+        - [] empty dependency array - useEffect is called just once on initial render
+        - if state is given as dependency, useEffect is called everytime state is updated
