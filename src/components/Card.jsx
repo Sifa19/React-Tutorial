@@ -2,7 +2,6 @@ import { IMAGE_CDN_URL } from "../utils/constants";
 
 function Card({ data }) {
   const info = data.card?.card?.info;
-  console.log(info);
   const {
     cloudinaryImageId,
     name,

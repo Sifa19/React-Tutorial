@@ -5,12 +5,23 @@ import Body from "./components/Body";
 import Filter from "./components/Filter";
 
 const AppLayout = () => {
-  const [ratingFilter, setRatingFilter] = useState(4.5);
+  const [listOfResturant, setListOfResturant] = useState([]);
+  const [filteredResturant, setFilteredResturant] = useState([]);
+  const [ratingFilter, setRatingFilter] = useState(2.5);
   return (
     <div className="app">
       <Header />
-      <Filter setRatingFilter={setRatingFilter} />
-      <Body ratingFilter={ratingFilter} />
+      <Filter
+        listOfResturant={listOfResturant}
+        setFilteredResturant={setFilteredResturant}
+        setRatingFilter={setRatingFilter}
+      />
+      <Body
+        filteredResturant={filteredResturant}
+        setListOfResturant={setListOfResturant}
+        setFilteredResturant={setFilteredResturant}
+        ratingFilter={ratingFilter}
+      />
     </div>
   );
 };

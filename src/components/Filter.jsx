@@ -1,8 +1,13 @@
 import StarRating from "./atomic/StarRating";
+import Search from "./Search";
 
-function Filter({ setRatingFilter }) {
+function Filter({ listOfResturant, setFilteredResturant, setRatingFilter }) {
   return (
     <div className="filters">
+      <Search
+        listOfResturant={listOfResturant}
+        setFilteredResturant={setFilteredResturant}
+      />
       <div className="filter-by-ratings">
         <button onClick={() => setRatingFilter(4.5)}>
           <StarRating rating={4.5} />

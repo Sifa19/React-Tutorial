@@ -2,8 +2,13 @@ import { useEffect, useState } from "react";
 import Card from "./Card";
 import ShimmerCard from "./ShimmerCard";
 
-const Body = ({ ratingFilter }) => {
-  const [listOfResturant, setListOfResturant] = useState([]);
+const Body = ({
+  filteredResturant,
+  setListOfResturant,
+  setFilteredResturant,
+  ratingFilter,
+}) => {
+  console.log("Body render");
 
   useEffect(() => {
     fetchData();
@@ -24,14 +29,15 @@ const Body = ({ ratingFilter }) => {
     });
 
     setListOfResturant(updatedList);
+    setFilteredResturant(updatedList);
   };
 
-  return listOfResturant.length === 0 ? (
+  return filteredResturant.length === 0 ? (
     <ShimmerCard />
   ) : (
     <div className="body">
       <div className="cards-container">
-        {listOfResturant.map((data) => (
+        {filteredResturant.map((data) => (
           <Card key={data?.card?.card?.info?.id} data={data} />
         ))}
       </div>
