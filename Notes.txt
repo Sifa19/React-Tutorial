@@ -112,3 +112,7 @@ what is react hook?
 what is state?
 
 CROS POLICY (Namaste dev cros policy)
+
+///////////////////////////////////////////////////////////////
+Routing in web - client side routing
+               - server side routing

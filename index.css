@@ -183,6 +183,7 @@ button-container2 {
 /* /////////////////////////////// SHIMMER UI /////////////////////// */
 .shimmer-container {
   margin: auto;
+  margin-top: 100px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

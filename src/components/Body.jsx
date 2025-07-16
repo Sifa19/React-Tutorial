@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import ShimmerCard from "./ShimmerCard";
+import Filter from "./Filter";
 
-const Body = ({
-  filteredResturant,
-  setListOfResturant,
-  setFilteredResturant,
-  ratingFilter,
-}) => {
-  console.log("Body render");
+const Body = () => {
+  const [listOfResturant, setListOfResturant] = useState([]);
+  const [filteredResturant, setFilteredResturant] = useState([]);
+  const [ratingFilter, setRatingFilter] = useState(2.5);
 
   useEffect(() => {
     fetchData();
@@ -36,6 +34,11 @@ const Body = ({
     <ShimmerCard />
   ) : (
     <div className="body">
+      <Filter
+        listOfResturant={listOfResturant}
+        setFilteredResturant={setFilteredResturant}
+        setRatingFilter={setRatingFilter}
+      />
       <div className="cards-container">
         {filteredResturant.map((data) => (
           <Card key={data?.card?.card?.info?.id} data={data} />
