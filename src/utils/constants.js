@@ -4,4 +4,7 @@ const CDN_LOGO_URL =
 const IMAGE_CDN_URL =
   "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
 
-export { CDN_LOGO_URL, IMAGE_CDN_URL };
+const MENU_API =
+  "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.9351929&lng=77.62448069999999&restaurantId=";
+
+export { CDN_LOGO_URL, IMAGE_CDN_URL, MENU_API };
