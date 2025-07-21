@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Card from "./Card";
 import ShimmerCard from "./ShimmerCard";
 import Filter from "./Filter";
+import useOnlineStatus from "../hooks/useOnlineStatus";
 
 const Body = () => {
   const [listOfResturant, setListOfResturant] = useState([]);
@@ -30,6 +31,9 @@ const Body = () => {
     setListOfResturant(updatedList);
     setFilteredResturant(updatedList);
   };
+
+  if (useOnlineStatus() === false)
+    return <p>Check your internent connection</p>;
 
   return filteredResturant.length === 0 ? (
     <ShimmerCard />
