@@ -116,3 +116,10 @@ CROS POLICY (Namaste dev cros policy)
 ///////////////////////////////////////////////////////////////
 Routing in web - client side routing
                - server side routing
+
+//////////////////////////////////////////////////////////////
+Chunking
+code Spliting
+Dynamic Bundling
+Lazy Loading
+On demand loading

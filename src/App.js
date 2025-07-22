@@ -9,6 +9,20 @@ import ContactUs from "./components/ContactUs";
 import Error from "./components/atomic/Error";
 import RestaruantMenu from "./components/RestaruantMenu";
 
+/* 
+Chunking
+Code Spliting
+Dynamic Bundling
+Lazy Loading
+On demand loading
+Dynamic import
+*/
+
+// import Grocery from "./components/Grocery";
+import { lazy, Suspense } from "react";
+import ShimmerCard from "./components/ShimmerCard";
+const Grocery = lazy(() => import("./components/Grocery"));
+
 const AppLayout = () => {
   return (
     <div className="app">
@@ -40,6 +54,14 @@ const appRouter = createBrowserRouter([
       {
         path: "/restaurants/:resId",
         element: <RestaruantMenu />,
+      },
+      {
+        path: "/grocery",
+        element: (
+          <Suspense fallback={<h1>Loading...</h1>}>
+            <Grocery />
+          </Suspense>
+        ),
       },
     ],
     errorElement: <Error />,
