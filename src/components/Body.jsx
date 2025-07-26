@@ -38,13 +38,13 @@ const Body = () => {
   return filteredResturant.length === 0 ? (
     <ShimmerCard />
   ) : (
-    <div className="body">
+    <div className="font-sans">
       <Filter
         listOfResturant={listOfResturant}
         setFilteredResturant={setFilteredResturant}
         setRatingFilter={setRatingFilter}
       />
-      <div className="cards-container">
+      <div className="m-4 mt-6 grid justify-items-center [grid-template-columns:repeat(auto-fit,minmax(300px,1fr))] gap-[10px]">
         {filteredResturant.map((data) => (
           <Link
             key={data?.card?.card?.info?.id}

@@ -4,14 +4,18 @@ function Search({ listOfResturant, setFilteredResturant }) {
   const [searchText, setSearchText] = useState("");
   console.log("search render");
   return (
-    <div className="search">
+    <div className="flex items-center justify-center">
       <input
+        className="
+        border border-gray-950 
+        rounded-2xl pl-4 mr-2
+        focus:shadow-lg outline-0"
         type="text"
-        className="search-box"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}
       ></input>
       <button
+        className=" text-xl cursor-pointer hover:text-shadow-lg"
         onClick={() => {
           setFilteredResturant(() => {
             return listOfResturant.filter((card) =>

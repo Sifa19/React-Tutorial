@@ -3,12 +3,12 @@ import Search from "./Search";
 
 function Filter({ listOfResturant, setFilteredResturant, setRatingFilter }) {
   return (
-    <div className="filters">
+    <div className="flex flex-col gap-2 sm:flex-row justify-evenly">
       <Search
         listOfResturant={listOfResturant}
         setFilteredResturant={setFilteredResturant}
       />
-      <div className="filter-by-ratings">
+      <div className="flex items-center justify-center gap-4">
         <button onClick={() => setRatingFilter(4.5)}>
           <StarRating rating={4.5} />
         </button>
