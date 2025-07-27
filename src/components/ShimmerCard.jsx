@@ -4,10 +4,12 @@ function ShimmerCard() {
   return (
     <>
       <div className="mx-6 flex flex-col gap-2 sm:flex-row justify-evenly">
-        <div className="w-60 h-8 border border-gray-300 rounded-2xl pl-4 mr-2 bg-[linear-gradient(to_right,#f1eded_0%,#ffffff_50%,#f1eded_100%)] bg-[length:200%_100%]"></div>
-        <div className="w-28 h-8 border border-gray-300 rounded-2xl pl-4 mr-2 bg-[linear-gradient(to_right,#f1eded_0%,#ffffff_50%,#f1eded_100%)] bg-[length:200%_100%]"></div>
-        <div className="w-28 h-8 border border-gray-300 rounded-2xl pl-4 mr-2 bg-[linear-gradient(to_right,#f1eded_0%,#ffffff_50%,#f1eded_100%)] bg-[length:200%_100%]"></div>
-        <div className="w-28 h-8 border border-gray-300 rounded-2xl pl-4 mr-2 bg-[linear-gradient(to_right,#f1eded_0%,#ffffff_50%,#f1eded_100%)] bg-[length:200%_100%]"></div>
+        <div className="sm:w-60 h-8 border border-gray-300 rounded-2xl pl-4 mr-2 bg-[linear-gradient(to_right,#f1eded_0%,#ffffff_50%,#f1eded_100%)] bg-[length:200%_100%]"></div>
+        <div className="flex items-center justify-center gap-4">
+          <div className="w-28 h-8 border border-gray-300 rounded-2xl pl-4 mr-2 bg-[linear-gradient(to_right,#f1eded_0%,#ffffff_50%,#f1eded_100%)] bg-[length:200%_100%]"></div>
+          <div className="w-28 h-8 border border-gray-300 rounded-2xl pl-4 mr-2 bg-[linear-gradient(to_right,#f1eded_0%,#ffffff_50%,#f1eded_100%)] bg-[length:200%_100%]"></div>
+          <div className="w-28 h-8 border border-gray-300 rounded-2xl pl-4 mr-2 bg-[linear-gradient(to_right,#f1eded_0%,#ffffff_50%,#f1eded_100%)] bg-[length:200%_100%]"></div>
+        </div>
       </div>
       <div
         className="m-4 mt-6 grid justify-items-center 

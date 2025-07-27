@@ -1,22 +1,32 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Card from "./Card";
+import { Card, CardWithPromotedLabel } from "./Card";
 import ShimmerCard from "./ShimmerCard";
 import Filter from "./Filter";
 import useOnlineStatus from "../hooks/useOnlineStatus";
+import useGeolocation from "../hooks/useGeolocation";
 
 const Body = () => {
   const [listOfResturant, setListOfResturant] = useState([]);
   const [filteredResturant, setFilteredResturant] = useState([]);
   const [ratingFilter, setRatingFilter] = useState(2.5);
+  const coords = useGeolocation();
+
+  const PromotedCard = CardWithPromotedLabel(Card);
 
   useEffect(() => {
-    fetchData();
-  }, [ratingFilter]);
+    if (coords) {
+      fetchData();
+    }
+  }, [ratingFilter, coords]);
 
   const fetchData = async () => {
+    // const data = await fetch(
+    //   "https://www.swiggy.com/dapi/restaurants/search/v3?lat=18.5203896&lng=73.8567005&str=lunch&trackingId=undefined&submitAction=ENTER&queryUniqueId=91901e97-45fb-e29f-bfda-f85244a9e203&selectedPLTab=RESTAURANT"
+    // );
+
     const data = await fetch(
-      "https://www.swiggy.com/dapi/restaurants/search/v3?lat=18.5203896&lng=73.8567005&str=lunch&trackingId=undefined&submitAction=ENTER&queryUniqueId=91901e97-45fb-e29f-bfda-f85244a9e203&selectedPLTab=RESTAURANT"
+      `https://www.swiggy.com/dapi/restaurants/search/v3?lat=${coords.lat}&lng=${coords.lang}&str=lunch&submitAction=ENTER&selectedPLTab=RESTAURANT&offset=40`
     );
 
     const json = await data.json();
@@ -31,6 +41,8 @@ const Body = () => {
     setListOfResturant(updatedList);
     setFilteredResturant(updatedList);
   };
+
+  console.log(coords);
 
   if (useOnlineStatus() === false)
     return <p>Check your internent connection</p>;
@@ -50,7 +62,13 @@ const Body = () => {
             key={data?.card?.card?.info?.id}
             to={"/restaurants/" + data?.card?.card?.info?.id}
           >
-            <Card key={data?.card?.card?.info?.id} data={data} />
+            {/* if a resturant is promoted, 
+            use higher order to add promoted tag */}
+            {data.card?.card?.info.promoted ? (
+              <PromotedCard data={data} />
+            ) : (
+              <Card key={data?.card?.card?.info?.id} data={data} />
+            )}
           </Link>
         ))}
       </div>

@@ -12,6 +12,7 @@ function Header() {
   return (
     <div
       className="
+      z-100
       w-full fixed bg-yellow-500 text-[10px] sm:text-xl
       flex items-center justify-between 
       mb-2 sm:px-6"
