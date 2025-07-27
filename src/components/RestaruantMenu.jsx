@@ -1,35 +1,42 @@
 import { useParams } from "react-router-dom";
 import useRestaurantMenu from "../hooks/useRestaurantMenu";
+import ResturantSummary from "./ResturantSummary";
+import { useState } from "react";
+import Accordian from "./Accordian";
 
 function RestaruantMenu() {
   const { resId } = useParams();
   const restaurantInfo = useRestaurantMenu(resId);
+  const [showIndex, setShowIndex] = useState(0);
 
   if (restaurantInfo === null) return <h1>Loading : Shimmer Ui</h1>;
 
-  const { name, cuisines, costForTwoMessage } =
-    restaurantInfo?.cards[2]?.card?.card?.info;
-  const { itemCards } =
-    restaurantInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR.cards[2].card
-      .card;
+  const categories =
+    restaurantInfo?.cards[4]?.groupedCard?.cardGroupMap?.REGULAR.cards.filter(
+      (card) =>
+        card.card?.card["@type"]?.includes(
+          "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
+        )
+    );
 
   return (
-    <div>
-      <div className="menu">
-        <h1>{name}</h1>
-        <h3>{cuisines.join(", ")}</h3>
-        <span>{costForTwoMessage}</span>
-        <ul>
-          {itemCards?.map((data) => {
-            const { id, name, price } = data?.card?.info;
-            return (
-              <li key={id}>
-                {name} - {price / 100 || ""}
-              </li>
-            );
-          })}
-        </ul>
-      </div>
+    <div className="mx-20">
+      <ResturantSummary details={restaurantInfo?.cards[2]?.card?.card?.info} />
+      {categories?.map((card, index) => {
+        const categoryId = card?.card?.card?.categoryId;
+        const categoryTitle = card?.card?.card?.title;
+        const itemCards = card?.card?.card?.itemCards;
+        return (
+          <Accordian
+            key={categoryId}
+            index={index}
+            title={categoryTitle}
+            items={itemCards}
+            show={index === showIndex ? true : false}
+            setShowIndex={setShowIndex}
+          />
+        );
+      })}
     </div>
   );
 }

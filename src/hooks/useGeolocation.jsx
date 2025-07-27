@@ -10,7 +10,6 @@ function useGeolocation() {
           lat: position.coords.latitude,
           lang: position.coords.longitude,
         });
-        console.log("set");
       },
       (err) => {
         setCoords({ lat: " 28.644800", lang: " 77.216721" });
