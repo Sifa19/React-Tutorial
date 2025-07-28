@@ -2,13 +2,15 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "../../node_modules/react";
+import { useState, useContext } from "../../node_modules/react";
 import { CDN_LOGO_URL } from "../utils/constants";
 import logo from "./logo.png";
+import UserContext from "../utils/userContext";
 
 function Header() {
   const [login, setLogin] = useState(false);
-  console.log(logo);
+  const userData = useContext(UserContext);
+
   return (
     <div
       className="
@@ -40,7 +42,11 @@ function Header() {
           {!login ? (
             <i className="fa fa-sign-in" aria-hidden="true"></i>
           ) : (
-            <FontAwesomeIcon icon={faUser} />
+            <>
+              <FontAwesomeIcon icon={faUser} />
+              {userData.loggedInUser}
+              <i className="fa fa-sign-out" aria-hidden="true"></i>
+            </>
           )}
         </li>
       </ul>

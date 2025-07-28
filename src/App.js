@@ -20,7 +20,6 @@ Dynamic import
 
 // import Grocery from "./components/Grocery";
 import { lazy, Suspense } from "react";
-import ShimmerCard from "./components/ShimmerCard";
 const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {

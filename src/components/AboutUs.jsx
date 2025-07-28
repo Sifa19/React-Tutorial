@@ -1,6 +1,7 @@
 import { Component } from "react";
 import User from "./User";
 import UserClass from "./UserClass";
+import UserContext from "../utils/userContext";
 
 class AboutUs extends Component {
   constructor(props) {
@@ -19,6 +20,11 @@ class AboutUs extends Component {
     const { name, location } = this.state.userInfo;
     return (
       <div>
+        <h1 className="font-bold">
+          <UserContext.Consumer>
+            {({ loggedInUser }) => loggedInUser}
+          </UserContext.Consumer>
+        </h1>
         {/* <User name={"Prachita (Function)"} location={"Goa"} /> */}
         <UserClass name={name} location={location} />
         <UserClass name={"Second (Class)"} location={"Bengaluru"} />
