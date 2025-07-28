@@ -2,7 +2,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown, faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import DishCard from "./DishCard";
 
-function Accordian({ index, title, items, show, setShowIndex }) {
+function Accordian({
+  index,
+  title,
+  items,
+  show,
+  setShowIndex,
+  resturantDetails,
+}) {
   console.log(show);
   return (
     <div>
@@ -23,7 +30,11 @@ function Accordian({ index, title, items, show, setShowIndex }) {
         <div className="p-4">
           {items.map((category) => {
             return (
-              <DishCard key={category.card.info.id} data={category.card.info} />
+              <DishCard
+                key={category.card.info.id}
+                data={category.card.info}
+                resturantDetails={resturantDetails}
+              />
             );
           })}
         </div>

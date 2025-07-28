@@ -123,3 +123,11 @@ code Spliting
 Dynamic Bundling
 Lazy Loading
 On demand loading
+
+////////////////////////////REDUX//////////////////////////////////
+1. install @reduxjs/toolkit and react-redux
+2. Build the Store
+3. connect store to the app
+4. create Slice (cartSlice)
+5. dispatch (action)
+6. selector

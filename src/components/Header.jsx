@@ -3,13 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { useState, useContext } from "../../node_modules/react";
-import { CDN_LOGO_URL } from "../utils/constants";
-import logo from "./logo.png";
 import UserContext from "../utils/userContext";
+import { useSelector } from "react-redux";
+import logo from "./logo2.png";
 
 function Header() {
   const [login, setLogin] = useState(false);
   const userData = useContext(UserContext);
+
+  const noCartItems = useSelector((store) => store.cart.items.length);
 
   return (
     <div
@@ -20,7 +22,7 @@ function Header() {
       mb-2 sm:px-6"
     >
       <div className="w-10 h-20 flex justify-center items-center sm:w-24">
-        <img src={require("./logo.png")} />
+        <img src={logo} />
       </div>
       <ul className="flex gap-4 mr-4">
         <li>{/* <Link to="/grocery">Grocery</Link> */}</li>
@@ -33,9 +35,10 @@ function Header() {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
-        <li>
+        <li className="relative">
           <Link to="/cart">
             <FontAwesomeIcon icon={faCartShopping} />
+            <span className="absolute text-xs font-medium">{noCartItems}</span>
           </Link>
         </li>
         <li onClick={() => setLogin((login) => !login)}>

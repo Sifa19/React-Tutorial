@@ -23,6 +23,10 @@ function RestaruantMenu() {
     <div className="mx-20">
       <ResturantSummary details={restaurantInfo?.cards[2]?.card?.card?.info} />
       {categories?.map((card, index) => {
+        const resturantDetails = {
+          name: restaurantInfo?.cards[2]?.card?.card?.info.name,
+          area: restaurantInfo?.cards[2]?.card?.card?.info.locality,
+        };
         const categoryId = card?.card?.card?.categoryId;
         const categoryTitle = card?.card?.card?.title;
         const itemCards = card?.card?.card?.itemCards;
@@ -34,6 +38,7 @@ function RestaruantMenu() {
             items={itemCards}
             show={index === showIndex ? true : false}
             setShowIndex={setShowIndex}
+            resturantDetails={resturantDetails}
           />
         );
       })}

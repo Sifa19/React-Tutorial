@@ -9,27 +9,26 @@ import ContactUs from "./components/ContactUs";
 import Error from "./components/atomic/Error";
 import RestaruantMenu from "./components/RestaruantMenu";
 
-/* 
-Chunking
-Code Spliting
-Dynamic Bundling
-Lazy Loading
-On demand loading
-Dynamic import
-*/
-
+/* Chunking, Code Spliting, Dynamic Bundling
+Lazy Loading, On demand loading, Dynamic import */
 // import Grocery from "./components/Grocery";
 import { lazy, Suspense } from "react";
 const Grocery = lazy(() => import("./components/Grocery"));
 
+import { Provider } from "react-redux";
+import appStore from "./store/appStore";
+import Cart from "./components/Cart";
+
 const AppLayout = () => {
   return (
-    <div className="relative">
-      <Header />
-      <div className="pt-28">
-        <Outlet />
+    <Provider store={appStore}>
+      <div className="relative">
+        <Header />
+        <div className="pt-28">
+          <Outlet />
+        </div>
       </div>
-    </div>
+    </Provider>
   );
 };
 
@@ -50,6 +49,11 @@ const appRouter = createBrowserRouter([
       {
         path: "contact",
         element: <ContactUs />,
+        errorElement: <Error />,
+      },
+      {
+        path: "cart",
+        element: <Cart />,
         errorElement: <Error />,
       },
       {

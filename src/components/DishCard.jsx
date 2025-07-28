@@ -1,12 +1,22 @@
 import { useState } from "react";
 import { IMAGE_CDN_URL } from "../utils/constants";
+import { useDispatch } from "react-redux";
+import { addItem } from "../store/cartSlice";
 
-function DishCard({ data }) {
+function DishCard({ data, resturantDetails }) {
   const [show, setShow] = useState(false);
-  console.log(data);
   const { isVeg, inStock, name, price, ratings, description, imageId } = data;
   const { rating, ratingCount } = ratings.aggregatedRating;
   const imgSrc = IMAGE_CDN_URL + imageId;
+
+  const dispatch = useDispatch();
+
+  const handleAddItem = () => {
+    console.log(resturantDetails);
+    const newData = { ...data, resturantDetails };
+    console.log(newData);
+    dispatch(addItem(newData));
+  };
 
   if (inStock <= 0) return;
   return (
@@ -47,6 +57,7 @@ function DishCard({ data }) {
           className="bg-white border-1 border-stone-200  text-xs font-bold text-green-400
             px-4 py-2 rounded-lg absolute -bottom-3 left-[10%] cursor-pointer
             hover:bg-stone-200"
+          onClick={handleAddItem}
         >
           ADD TO CART
         </button>
