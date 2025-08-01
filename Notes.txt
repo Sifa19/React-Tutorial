@@ -131,3 +131,29 @@ On demand loading
 4. create Slice (cartSlice)
 5. dispatch (action)
 6. selector
+
+
+///////////////////////////TESTING//////////////////////////////
+1. Unit Testing 
+            - Testing individual components or functions in isolation 
+            to ensure they work as expected independently 
+            of other parts of the application.
+2. Intergration Testing 
+            - Testing how multiple components or modules work together,
+             ensuring that their interaction produces 
+             the correct results.
+3. End to End Testing
+            - Testing the entire application from the user’s 
+            perspective by simulating real user scenarios 
+            and validating complete workflows, 
+            such as login, search, or checkout.
+
+Libraries : React Testing Library, Jest Library
+
+Setting Up:
+1. Install React Testing Library (React Testing Library website)
+2. Install Jest (Jest website)
+3. Install Babel dependencies (Jest website)
+4. Configure Babel (Jest website)
+5. Configure Parcel to disable default
+   Babel transpilation (parcel docs)
