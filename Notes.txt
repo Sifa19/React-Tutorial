@@ -161,3 +161,6 @@ Setting Up:
 Jest Configuration:
 - init Jest
 - install jest enviroment jsdom package (React Testing Library)
+- install npm i -D @babel/preset-react
+- add it in babel config
+- install npm i -D @testing-library/jest-dom
