@@ -157,3 +157,7 @@ Setting Up:
 4. Configure Babel (Jest website)
 5. Configure Parcel to disable default
    Babel transpilation (parcel docs)
+
+Jest Configuration:
+- init Jest
+- install jest enviroment jsdom package (React Testing Library)
