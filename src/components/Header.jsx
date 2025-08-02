@@ -5,7 +5,7 @@ import { faUser } from "@fortawesome/free-solid-svg-icons";
 import { useState, useContext } from "../../node_modules/react";
 import UserContext from "../utils/userContext";
 import { useSelector } from "react-redux";
-import logo from "./logo2.png";
+// import logo from "./logo2.png";
 
 function Header() {
   const [login, setLogin] = useState(false);
@@ -22,7 +22,7 @@ function Header() {
       mb-2 sm:px-6"
     >
       <div className="w-10 h-20 flex justify-center items-center sm:w-24">
-        <img src={logo} />
+        <img src="./logo.png" />
       </div>
       <ul className="flex gap-4 mr-4">
         <li>{/* <Link to="/grocery">Grocery</Link> */}</li>
@@ -38,19 +38,27 @@ function Header() {
         <li className="relative">
           <Link to="/cart">
             <FontAwesomeIcon icon={faCartShopping} />
-            <span className="absolute text-xs font-medium">{noCartItems}</span>
+            <span className="absolute text-xs font-medium" title="cart">
+              {noCartItems}
+            </span>
           </Link>
         </li>
         <li onClick={() => setLogin((login) => !login)}>
-          {!login ? (
-            <i className="fa fa-sign-in" aria-hidden="true"></i>
-          ) : (
-            <>
-              <FontAwesomeIcon icon={faUser} />
-              {userData.loggedInUser}
-              <i className="fa fa-sign-out" aria-hidden="true"></i>
-            </>
-          )}
+          <button>
+            {!login ? (
+              <>
+                Login
+                <i className="fa fa-sign-in" aria-hidden="true"></i>
+              </>
+            ) : (
+              <>
+                <FontAwesomeIcon icon={faUser} />
+                {/* {userData.loggedInUser} */}
+                Logout
+                <i className="fa fa-sign-out" aria-hidden="true"></i>
+              </>
+            )}
+          </button>
         </li>
       </ul>
     </div>
