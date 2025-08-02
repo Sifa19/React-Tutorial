@@ -1,0 +1,215 @@
+{
+  "card": {
+    "card": {
+      "card": {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "450664",
+          "name": "Chaayos Chai+Snacks=Relax",
+          "city": "1",
+          "slugs": {
+            "restaurant": "chaayos-meri-wali-chai-whitefield-ck-blr-kadugodi",
+            "city": "bangalore"
+          },
+          "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/dfbcecfc-b380-4648-930a-b9b56b21e781_450664.JPG",
+          "address": "Unit No 8,G-Location,White Field Hub, Thubarahalli, Varthur Rd, Bangalore Karnataka 560066",
+          "locality": "Whitefield",
+          "areaName": "Whitefield",
+          "costForTwo": "25000",
+          "costForTwoMessage": "₹250 FOR TWO",
+          "cuisines": [
+            "Bakery",
+            "Beverages",
+            "Chaat",
+            "Desserts",
+            "Home Food",
+            "Italian",
+            "Maharashtrian",
+            "Snacks",
+            "Street Food",
+            "Sweets"
+          ],
+          "avgRating": 4.5,
+          "feeDetails": {},
+          "parentId": "281782",
+          "avgRatingString": "4.5",
+          "totalRatingsString": "3.8K+",
+          "sla": {
+            "deliveryTime": 41,
+            "minDeliveryTime": 40,
+            "maxDeliveryTime": 50,
+            "lastMileTravel": 6,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "RAIN_MODE_NONE",
+            "slaString": "40-50 MINS",
+            "lastMileTravelString": "6.0 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "opened": true,
+            "restaurantClosedMeta": {}
+          },
+          "badges": {},
+          "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹84",
+            "logoCtx": {
+              "text": "BENEFITS"
+            }
+          },
+          "ratingSlab": "RATING_SLAB_5",
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {},
+            "commsStyling": {}
+          },
+          "cartOrderabilityNudgeBanner": {
+            "parameters": {},
+            "presentation": {}
+          },
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "4.2",
+              "ratingCount": "776"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          "featuredSectionInfo": {
+            "sectionTitle": "More"
+          }
+        },
+        "analytics": {
+          "screenName": "explore",
+          "context": "{\"tid\":\"\",\"grid\":\"67b242d7-2f8d-41b2-8527-d81194680fad\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+          "objectValue": "450664",
+          "impressionObjectName": "impression-restaurant",
+          "clickObjectName": "click-restaurant"
+        },
+        "ctaWithParams": {
+          "link": "swiggy://menu",
+          "type": "DEEPLINK",
+          "params": {
+            "query": "lunch",
+            "sourceSessionId": "m2lb55e1-f238-4c6a-9391-dba36cc511f1",
+            "source": "SEARCH",
+            "isSld": "false",
+            "sourceRequestId": "688e39c4a7aa60f7291f9c9b27f7a4eb",
+            "qrEnabled": "false",
+            "restaurant_id": "450664"
+          }
+        }
+      }
+    }
+  },
+  "cardWithPromotedLabel": {
+    "card": {
+      "card": {
+        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+        "info": {
+          "id": "821271",
+          "name": "Poco A Poco",
+          "city": "1",
+          "slugs": {
+            "restaurant": "poco-a-poco-whitefield-whitefield",
+            "city": "bangalore"
+          },
+          "cloudinaryImageId": "1f04194256098d1a5456ddb99b7f2c0d",
+          "address": "Katha No.799,Sy No.4,Garden Of Eden By Ukn,Behind Fab India Shop, Pattandur Agrahara, Whitefield Main Road ,Whitefield,Bangalore-560066, Mahadevapura, B.B.M.P East, Karnataka - 560066",
+          "locality": "Whitefield",
+          "areaName": "Whitefield",
+          "costForTwo": "60000",
+          "costForTwoMessage": "₹600 FOR TWO",
+          "cuisines": [
+            "Continental",
+            "Chinese",
+            "Indian",
+            "briyani",
+            "Tandoor",
+            "Biryani",
+            "Desserts",
+            "Beverages"
+          ],
+          "avgRating": 4.3,
+          "feeDetails": {},
+          "parentId": "490012",
+          "avgRatingString": "4.3",
+          "totalRatingsString": "879",
+          "promoted": true,
+          "adTrackingId": "cid=31605805~p=3~adgrpid=31605805#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=821271~plpr=SEARCH#RESTAURANT~st=lunch~eid=ed320837-73be-4ba6-805e-81e6b47ad19d~srvts=1754152816582",
+          "sla": {
+            "deliveryTime": 53,
+            "minDeliveryTime": 50,
+            "maxDeliveryTime": 55,
+            "lastMileTravel": 7.8,
+            "serviceability": "SERVICEABLE",
+            "rainMode": "RAIN_MODE_NONE",
+            "slaString": "50-55 MINS",
+            "lastMileTravelString": "7.8 km",
+            "iconType": "ICON_TYPE_EMPTY"
+          },
+          "availability": {
+            "opened": true,
+            "restaurantClosedMeta": {}
+          },
+          "badges": {},
+          "aggregatedDiscountInfoV3": {
+            "header": "ITEMS",
+            "subHeader": "AT ₹109",
+            "logoCtx": {
+              "text": "BENEFITS"
+            }
+          },
+          "ratingSlab": "RATING_SLAB_5",
+          "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {},
+            "commsStyling": {}
+          },
+          "cartOrderabilityNudgeBanner": {
+            "parameters": {},
+            "presentation": {}
+          },
+          "externalRatings": {
+            "aggregatedRating": {
+              "rating": "4.5",
+              "ratingCount": "671"
+            },
+            "source": "GOOGLE",
+            "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+          },
+          "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+          "featuredSectionInfo": {
+            "sectionTitle": "More"
+          },
+          "campaignId": "31605805"
+        },
+        "analytics": {
+          "screenName": "explore",
+          "context": "{\"tid\":\"\",\"grid\":\"9fa860a7-1d87-45ba-8698-e63b51ae598b\",\"queryUniqueId\":\"\",\"query\":\"lunch\",\"adTrackingId\":\"cid=31605805~p=3~adgrpid=31605805#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=821271~plpr=SEARCH#RESTAURANT~st=lunch~eid=ed320837-73be-4ba6-805e-81e6b47ad19d~srvts=1754152816582\"}",
+          "objectValue": "821271",
+          "impressionObjectName": "impression-restaurant-ad",
+          "clickObjectName": "click-restaurant-ad"
+        },
+        "ctaWithParams": {
+          "link": "swiggy://menu",
+          "type": "DEEPLINK",
+          "params": {
+            "sourceSessionId": "m2m5caf6-60b1-4307-9e94-c2e95f127570",
+            "source": "SEARCH",
+            "isSld": "false",
+            "sourceRequestId": "688e3f707c3ce8919ef4bd45963d2825",
+            "qrEnabled": "false",
+            "restaurant_id": "821271",
+            "query": "lunch"
+          }
+        }
+      }
+    }
+  }
+}

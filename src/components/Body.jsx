@@ -65,7 +65,7 @@ const Body = () => {
             {/* if a resturant is promoted, 
             use higher order to add promoted tag */}
             {data.card?.card?.info.promoted ? (
-              <PromotedCard data={data} />
+              <PromotedCard key={data?.card?.card?.info?.id} data={data} />
             ) : (
               <Card key={data?.card?.card?.info?.id} data={data} />
             )}

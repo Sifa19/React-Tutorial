@@ -34,7 +34,9 @@ function Card({ data }) {
         />
       </div>
       <div className="px-6 pt-4 flex flex-col gap-2">
-        <h3 className="font-bold">{name}</h3>
+        <h3 data-testid="res-name" className="font-bold">
+          {name}
+        </h3>
         <span className="text-sm">
           {areaName.charAt(0).toUpperCase() + areaName.slice(1).toLowerCase()}
         </span>
@@ -62,6 +64,7 @@ function Card({ data }) {
 
 function CardWithPromotedLabel(Card) {
   return ({ data }) => {
+    console.log(data);
     return (
       <div className="relative">
         <div
