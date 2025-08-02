@@ -1,0 +1,3106 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "RESTAURANT": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "88962",
+                        "name": "LunchBox - Meals and Thalis",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "lunchbox-doddamma-temple-bellandursarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/10/16/2155bab4-33ac-4b54-824c-5c18bd8c0225_88962.jpg",
+                        "address": "18/101/6, Doddamma Devi Temple Rd, Green Glen Layout, Bellandur, Bengaluru, Karnataka 560103",
+                        "locality": "doddamma temple",
+                        "areaName": "Bellandur",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": ["Thalis", "North Indian", "Biryani"],
+                        "avgRating": 4.3,
+                        "feeDetails": {},
+                        "parentId": "4925",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "5.4K+",
+                        "promoted": true,
+                        "adTrackingId": "cid=31517775~p=0~adgrpid=31517775#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=88962~plpr=SEARCH#RESTAURANT~st=lunch~eid=670f9026-3381-41bb-b5e9-5fbf67d1758d~srvts=1754154507849",
+                        "sla": {
+                          "deliveryTime": 30,
+                          "minDeliveryTime": 30,
+                          "maxDeliveryTime": 35,
+                          "lastMileTravel": 3,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "30-35 MINS",
+                          "lastMileTravelString": "3.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {
+                          "textExtendedBadges": [
+                            {
+                              "iconId": "guiltfree/GF_Logo_android_3x",
+                              "shortDescription": "options available",
+                              "fontColor": "#7E808C"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹99",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        },
+                        "campaignId": "31517775"
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\",\"adTrackingId\":\"cid=31517775~p=0~adgrpid=31517775#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=88962~plpr=SEARCH#RESTAURANT~st=lunch~eid=670f9026-3381-41bb-b5e9-5fbf67d1758d~srvts=1754154507849\"}",
+                        "objectValue": "88962",
+                        "impressionObjectName": "impression-restaurant-ad",
+                        "clickObjectName": "click-restaurant-ad"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "88962"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "775497",
+                        "name": "Long Boat Brewing Co.",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "long-boat-brewing-co.-bellandur-sarjapur-bellandur-sarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "8b8bace154b87fa1ca5d1adf4e9d7ae8",
+                        "address": "108/2, Site No.50, 1st Main, MILLENIA, MSR Layout, Marathahalli, Bangalore, Mahadevapura , B.B.M.P East, Karnataka-560037",
+                        "locality": "MSR Layout",
+                        "areaName": "Bellandur Sarjapur",
+                        "costForTwo": "95000",
+                        "costForTwoMessage": "₹950 FOR TWO",
+                        "cuisines": [
+                          "Asian",
+                          "Chinese",
+                          "North Indian",
+                          "Pizzas",
+                          "Biryani",
+                          "Desserts",
+                          "Pastas",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.4,
+                        "feeDetails": {},
+                        "parentId": "462689",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "3.1K+",
+                        "sla": {
+                          "deliveryTime": 35,
+                          "minDeliveryTime": 30,
+                          "maxDeliveryTime": 35,
+                          "lastMileTravel": 4.4,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "30-35 MINS",
+                          "lastMileTravelString": "4.4 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹109",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "775497",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "775497",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "263740",
+                        "name": "Shravan Specials by Lunchbox",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "navratri-meals-by-faasos-doddamma-temple-bellandur-sarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/11/4a3b5ebb-b6fd-4ed2-b23c-d4b12125ef7a_263740.JPG",
+                        "address": "18/101/6, Doddamma Devi Temple Rd, Green Glen Layout, Bellandur, Bengaluru, Karnataka 560103",
+                        "locality": "doddamma temple",
+                        "areaName": "Bellandur",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": [
+                          "Biryani",
+                          "North Indian",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.4,
+                        "feeDetails": {},
+                        "parentId": "21938",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "255",
+                        "promoted": true,
+                        "adTrackingId": "cid=31517776~p=1~adgrpid=31517776#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=263740~plpr=SEARCH#RESTAURANT~st=lunch~eid=02b7762c-f251-43a9-832a-b4bbefcb3f1f~srvts=1754154507849",
+                        "sla": {
+                          "deliveryTime": 29,
+                          "minDeliveryTime": 25,
+                          "maxDeliveryTime": 30,
+                          "lastMileTravel": 3,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "25-30 MINS",
+                          "lastMileTravelString": "3.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "v1695133679/badges/Pure_Veg111.png",
+                              "description": "pureveg"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹149",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        },
+                        "campaignId": "31517776"
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\",\"adTrackingId\":\"cid=31517776~p=1~adgrpid=31517776#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=263740~plpr=SEARCH#RESTAURANT~st=lunch~eid=02b7762c-f251-43a9-832a-b4bbefcb3f1f~srvts=1754154507849\"}",
+                        "objectValue": "263740",
+                        "impressionObjectName": "impression-restaurant-ad",
+                        "clickObjectName": "click-restaurant-ad"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "263740",
+                          "query": "lunch"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "241027",
+                        "name": "Namaste",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "namaste-hsr-hsr",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "dtcwa1rxdskp3crqvpr3",
+                        "address": "1086/A, 1087/A, 14th Main, 18th Cross Rd, near BDA Complex, III Sector, HSR Layout, Bengaluru, Karnataka 560102",
+                        "locality": "3rd Sector",
+                        "areaName": "Hsr Layout",
+                        "costForTwo": "10000",
+                        "costForTwoMessage": "₹100 FOR TWO",
+                        "cuisines": ["South Indian", "Chinese", "Thalis"],
+                        "avgRating": 4.4,
+                        "feeDetails": {},
+                        "parentId": "366271",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "32K+",
+                        "sla": {
+                          "deliveryTime": 46,
+                          "minDeliveryTime": 45,
+                          "maxDeliveryTime": 50,
+                          "lastMileTravel": 9.9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "45-50 MINS",
+                          "lastMileTravelString": "9.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "Rxawards/_CATEGORY-South%20Indian.png",
+                              "description": "Delivery!"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "241027",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "qrEnabled": "false",
+                          "restaurant_id": "241027",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "856874",
+                        "name": "Banalata Cloud Kitchen",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "banalata-cloud-kitchen-marathahalli-marathahalli",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "939adace8de139e0026e62b7e98f9ce9",
+                        "address": "Shop No : 73/74 , Floor :  , LOKESH RESIDENCY , 2nd Cross Road Munnekollal, Bengaluru, Karnataka, India 560037",
+                        "locality": "Lokesh Residency",
+                        "areaName": "Marathahalli",
+                        "costForTwo": "30000",
+                        "costForTwoMessage": "₹300 FOR TWO",
+                        "cuisines": [
+                          "North Indian",
+                          "Seafood",
+                          "Snacks",
+                          "Thalis"
+                        ],
+                        "avgRating": 4.2,
+                        "feeDetails": {},
+                        "parentId": "503594",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "99",
+                        "sla": {
+                          "deliveryTime": 58,
+                          "minDeliveryTime": 55,
+                          "maxDeliveryTime": 60,
+                          "lastMileTravel": 5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "55-60 MINS",
+                          "lastMileTravelString": "5.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseMessage": "Closes soon",
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "856874",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "856874",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "795395",
+                        "name": "Olio - The Wood Fired Pizzeria",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "olio-the-wood-fired-pizzeria-aecs-layout-marathahalli",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/17/380b3691-a94a-49da-96cf-d67e50d19101_795395.JPG",
+                        "address": "Ground Floor, #263, 1st main, 60ft road, AECS layout, Opp to Star Residency Apartment,Brookfield, Whitefield, Bengaluru, Karnataka-560037",
+                        "locality": "AECS layout",
+                        "areaName": "Star Residency Apartment",
+                        "costForTwo": "30000",
+                        "costForTwoMessage": "₹300 FOR TWO",
+                        "cuisines": [
+                          "Pizzas",
+                          "Pastas",
+                          "Italian",
+                          "Fast Food",
+                          "Snacks",
+                          "Beverages",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.1,
+                        "feeDetails": {},
+                        "parentId": "11633",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "1.6K+",
+                        "sla": {
+                          "deliveryTime": 46,
+                          "minDeliveryTime": 45,
+                          "maxDeliveryTime": 50,
+                          "lastMileTravel": 6,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "45-50 MINS",
+                          "lastMileTravelString": "6.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "newg.png",
+                              "description": "Gourmet"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹99",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "795395",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "qrEnabled": "false",
+                          "restaurant_id": "795395",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "233767",
+                        "name": "Vijay kitchen",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "vijay-kitchen-marathahalli-marathahalli",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "yf3gc1w1ahert2zgcach",
+                        "address": "Vijay Kitchen,533,B Block,opposite to kesar sweets.",
+                        "locality": "Brookefields",
+                        "areaName": "Marathahalli",
+                        "costForTwo": "30000",
+                        "costForTwoMessage": "₹300 FOR TWO",
+                        "cuisines": ["Indian"],
+                        "avgRating": 4,
+                        "feeDetails": {},
+                        "parentId": "223203",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "286",
+                        "sla": {
+                          "deliveryTime": 40,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 6.2,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "6.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.0",
+                            "ratingCount": "1.1K+"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "233767",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "233767",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "718162",
+                        "name": "Kampot",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "kampot-bellandur-sarjapur-bellandur-sarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "267db632c3e8d9ce744e4ae033db90d2",
+                        "address": "ECOWORLD. THE BAY FOOD COURT, RMZ Eco World Rd, Adarsh Palm Retreat, Bellandur, Bengaluru, Karnataka 560103",
+                        "locality": "Bellandur",
+                        "areaName": "Bellandur",
+                        "costForTwo": "80000",
+                        "costForTwoMessage": "₹800 FOR TWO",
+                        "cuisines": ["Pan-Asian", "Vietnamese"],
+                        "avgRating": 4.4,
+                        "feeDetails": {},
+                        "parentId": "428300",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "448",
+                        "sla": {
+                          "deliveryTime": 35,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 4.4,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "4.4 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseMessage": "Closes soon",
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "newg.png",
+                              "description": "Gourmet"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹227",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.6",
+                            "ratingCount": "836"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "718162",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "718162",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "812616",
+                        "name": "Beyondburg Inc",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "beyondburg-inc-central-bangalore-central-bangalore-2",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "cbf725cf7f6e603aa14893125098466c",
+                        "address": "NO.969/970, 1ST MAIN, ST BED,  KORAMANGALA 4TH BLOCK, BANGALORE,  BTM Layout, B.B.M.P South, Karnataka-560034",
+                        "locality": "BTM Layout",
+                        "areaName": "Central Bangalore",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": [
+                          "Burgers",
+                          "Fast Food",
+                          "American",
+                          "Beverages"
+                        ],
+                        "avgRating": 4.7,
+                        "feeDetails": {},
+                        "parentId": "43816",
+                        "avgRatingString": "4.7",
+                        "totalRatingsString": "1.0K+",
+                        "sla": {
+                          "deliveryTime": 63,
+                          "minDeliveryTime": 60,
+                          "maxDeliveryTime": 65,
+                          "lastMileTravel": 10.8,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "60-65 MINS",
+                          "lastMileTravelString": "10.8 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "Rxawards/_CATEGORY-Burger.png",
+                              "description": "Delivery!"
+                            },
+                            {
+                              "imageId": "newg.png",
+                              "description": "Gourmet"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹149",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "812616",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "812616",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1046148",
+                        "name": "Rajanna military hotel",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "rajanna-military-hotel-hsr-hsr",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/14/25247c3e-3818-4589-a879-f9069caa919e_1046148.jpg",
+                        "address": "Shop No : 149 , Floor : 1st floor , Babu Nilaya , 4th Cross Road Sector 6, HSR Layout, Bengaluru, Karnataka, India 560102",
+                        "locality": "HSR",
+                        "areaName": "HSR",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": ["Andhra", "Biryani", "South Indian"],
+                        "avgRating": 4.3,
+                        "feeDetails": {},
+                        "parentId": "165284",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "34",
+                        "sla": {
+                          "deliveryTime": 40,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 8.7,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "8.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "1046148",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "1046148"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "442820",
+                        "name": "The Dessert Heaven - Pastry, Brownie and Cakes",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "the-dessert-heaven-kadubeesanahalli-kadubeesanahalli",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/2/6ba6b2a1-b9f8-4772-a206-33cc65ac0c19_442820.jpg",
+                        "address": "NO.20/5, FIRST FLOOR, GNS IKON, KADUBISANAHALLI, OUTER RING ROAD, BANGALORE, Mahadevapura , B.B.M.P East, Karnataka-560103",
+                        "locality": "OUTER RING ROAD",
+                        "areaName": "Devarabisanahalli",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": [
+                          "Bakery",
+                          "Desserts",
+                          "Sweets",
+                          "Ice Cream"
+                        ],
+                        "avgRating": 4.2,
+                        "feeDetails": {},
+                        "parentId": "506176",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "534",
+                        "sla": {
+                          "deliveryTime": 35,
+                          "minDeliveryTime": 30,
+                          "maxDeliveryTime": 35,
+                          "lastMileTravel": 4.5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "30-35 MINS",
+                          "lastMileTravelString": "4.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {
+                          "textExtendedBadges": [
+                            {
+                              "iconId": "guiltfree/GF_Logo_android_3x",
+                              "shortDescription": "options available",
+                              "fontColor": "#7E808C"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹66",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "442820",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "442820"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "585186",
+                        "name": "Crusto's - Cheese Burst Pizza By Olio",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "crustos-cheese-burst-pizza-varthur-main-road-kadubeesanahalli",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/26/ed1f7a8f-9437-44d4-a8c4-d989680ec59f_585186.jpg",
+                        "address": "First Floor, 20/5 Varthur Main Road, Kadubeesanahalli, Bengaluru-560103, Karnataka",
+                        "locality": "Varthur Main Road",
+                        "areaName": "Kadubeesanahalli",
+                        "costForTwo": "30000",
+                        "costForTwoMessage": "₹300 FOR TWO",
+                        "cuisines": [
+                          "Pizzas",
+                          "Pastas",
+                          "Italian",
+                          "Fast Food",
+                          "Snacks",
+                          "Beverages",
+                          "Desserts"
+                        ],
+                        "avgRating": 4.5,
+                        "feeDetails": {},
+                        "parentId": "268955",
+                        "avgRatingString": "4.5",
+                        "totalRatingsString": "782",
+                        "sla": {
+                          "deliveryTime": 35,
+                          "minDeliveryTime": 30,
+                          "maxDeliveryTime": 35,
+                          "lastMileTravel": 4.5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "30-35 MINS",
+                          "lastMileTravelString": "4.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹69",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "585186",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "585186",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "962476",
+                        "name": "Bramble Kitchen",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "bramble-kitchen-marathahalli-marathahalli",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/25/87133379-e0f1-4dc6-b926-57258e160b98_962476.jpg",
+                        "address": "767-711, 1ST AND 2ND FLOOR, PANATHUR MAIN ROAD, KADUBEESANAHALLI, PANATHUR,, Bangalore East, Bangalore Urban, Karnataka-560103",
+                        "locality": "PANATHUR MAIN ROAD",
+                        "areaName": "KADUBEESANAHALLI",
+                        "costForTwo": "100000",
+                        "costForTwoMessage": "₹1000 FOR TWO",
+                        "cuisines": ["Continental"],
+                        "avgRating": 4.2,
+                        "feeDetails": {},
+                        "parentId": "564049",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "23",
+                        "sla": {
+                          "deliveryTime": 39,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 3.7,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "3.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "962476",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "962476",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "70070",
+                        "name": "SGS Gundu Pulav",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "sgs-gundu-pulav-marathahalli-marathahalli",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "zj9xvexsolupvmyj2hhg",
+                        "address": "NO 118/1B, OPP CASIDIC, near care medicals .KAGGADASAPURA MAIN ROAD, C V RAMAN NAGAR, BANGALORE, K R Puram, B.B.M.P East, Karnataka-560093",
+                        "locality": "varsova layout ",
+                        "areaName": "kaggadasapura",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": ["South Indian"],
+                        "avgRating": 4.1,
+                        "feeDetails": {},
+                        "parentId": "14570",
+                        "avgRatingString": "4.1",
+                        "totalRatingsString": "7.0K+",
+                        "sla": {
+                          "deliveryTime": 35,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 7.8,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "7.8 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseMessage": "Closes soon",
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "70070",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "70070",
+                          "query": "lunch"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1066110",
+                        "name": "Hotel Guna",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "hotel-guna-marathahalli-marathahalli",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/20/17b91b21-4f7f-48a0-b02c-1707df625320_1066110.jpg",
+                        "address": "Kadubeesanahalli, Panathur Main Road, Opp. All Season Super Market, Bangalore-560103 ,,Mahadevapura,B.B.M.P East,Karnataka-560103\t",
+                        "locality": "Marathahalli",
+                        "areaName": "Marathahalli",
+                        "costForTwo": "25000",
+                        "costForTwoMessage": "₹250 FOR TWO",
+                        "cuisines": ["South Indian"],
+                        "feeDetails": {},
+                        "parentId": "619701",
+                        "avgRatingString": "NEW",
+                        "sla": {
+                          "deliveryTime": 40,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 4.9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "4.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseMessage": "Closes soon",
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "1066110",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "1066110",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "737030",
+                        "name": "Mary Jane's Bakery & Deli",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "mary-jane's-bakery-&-deli-bellandur-sarjapur-bellandur-sarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/8/5d671020-c986-4bdb-b5db-3f3dadd3d9ba_737030.ss.jpg",
+                        "address": "No:46, Shubh Enclave, harlur Road, Haralur, Bangalore South, Bangalore Urban, Karnataka - 560102",
+                        "locality": "Haralur road",
+                        "areaName": "Bellandur Sarjapur",
+                        "costForTwo": "15000",
+                        "costForTwoMessage": "₹150 FOR TWO",
+                        "cuisines": [
+                          "Bakery",
+                          "Desserts",
+                          "Ice Cream",
+                          "Cakes & Pastries",
+                          "Cafe"
+                        ],
+                        "avgRating": 4.3,
+                        "feeDetails": {},
+                        "parentId": "437248",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "1.0K+",
+                        "sla": {
+                          "deliveryTime": 41,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 6.7,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "6.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseMessage": "Closes soon",
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "newg.png",
+                              "description": "Gourmet"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.2",
+                            "ratingCount": "388"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "737030",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "737030",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "462948",
+                        "name": "Forskor Restaurant",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "forskor-cafe-&-kitchen-bellandur-sarjapur-bellandur-sarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "civnr7ytkwys9b76wsbe",
+                        "address": "#78/2, 0pp to Grandeur International  school, Muthanallur cross,sarjapura main road Bangalore",
+                        "locality": "Bellandur",
+                        "areaName": "Bellandur Sarjapur",
+                        "costForTwo": "50000",
+                        "costForTwoMessage": "₹500 FOR TWO",
+                        "cuisines": [
+                          "Chinese",
+                          "Indian",
+                          "American",
+                          "Beverages"
+                        ],
+                        "avgRating": 4,
+                        "feeDetails": {},
+                        "parentId": "315821",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "406",
+                        "sla": {
+                          "deliveryTime": 40,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 12.2,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "12.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹129",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "462948",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "qrEnabled": "false",
+                          "restaurant_id": "462948",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "424731",
+                        "name": "Mahesh Lunch Home",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "mahesh-lunch-home-indiranagar-indiranagar",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "h1sjv7kymwtarlykd3cr",
+                        "address": "#2011,1st Floor, 100ft Road, HAL 2nd Stage, Indiranagar Bangalore",
+                        "locality": "Indiranagar",
+                        "areaName": "Indiranagar",
+                        "costForTwo": "100000",
+                        "costForTwoMessage": "₹1000 FOR TWO",
+                        "cuisines": ["Indian", "Seafood", "Oriental"],
+                        "avgRating": 4.4,
+                        "feeDetails": {},
+                        "parentId": "615",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "2.1K+",
+                        "sla": {
+                          "deliveryTime": 53,
+                          "minDeliveryTime": 50,
+                          "maxDeliveryTime": 55,
+                          "lastMileTravel": 7.7,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "50-55 MINS",
+                          "lastMileTravelString": "7.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {
+                          "imageBadges": [
+                            {
+                              "imageId": "newg.png",
+                              "description": "Gourmet"
+                            }
+                          ]
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹121 OFF",
+                          "subHeader": "ABOVE ₹399",
+                          "discountTag": "FLAT DEAL",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.2",
+                            "ratingCount": "4.8K+"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "424731",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "424731",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "618120",
+                        "name": "Shetty Lunch Home",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "shetty-lunch-home-koramangala-koramangala",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "9a20e9402f1cf882448914050c644393",
+                        "address": "No 03 Maharaja Building 80 Ft Road St. Bed Road 4Th Block Kormangala Bangalore South - 560034",
+                        "locality": "Koramangala",
+                        "areaName": "Koramangala",
+                        "costForTwo": "45000",
+                        "costForTwoMessage": "₹450 FOR TWO",
+                        "cuisines": [
+                          "Mangalorean",
+                          "Seafood",
+                          "Coastal",
+                          "North Indian",
+                          "South Indian",
+                          "Chinese"
+                        ],
+                        "avgRating": 4.4,
+                        "feeDetails": {},
+                        "parentId": "12478",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "1.8K+",
+                        "sla": {
+                          "deliveryTime": 62,
+                          "minDeliveryTime": 60,
+                          "maxDeliveryTime": 65,
+                          "lastMileTravel": 10.8,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "60-65 MINS",
+                          "lastMileTravelString": "10.8 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {},
+                        "sld": true,
+                        "aggregatedDiscountInfoV3": {
+                          "header": "10% OFF",
+                          "subHeader": "ABOVE ₹1000",
+                          "discountTag": "FLAT DEAL",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "618120",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "isSld": "true",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "618120",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "63179",
+                        "name": "CakeZone Patisserie",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "cakezone-bellandur-bellandursarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/2/a1e15a67-87d0-4fb2-b3ee-7e7d5ce3821f_63179.jpg",
+                        "address": "NO.20/5, FIRST FLOOR, GNS IKON, KADUBISANAHALLI, OUTER RING ROAD, BANGALORE, Mahadevapura , B.B.M.P East, Karnataka-560103",
+                        "locality": "OUTER RING ROAD",
+                        "areaName": "Devarabisanahalli",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": [
+                          "Bakery",
+                          "Desserts",
+                          "Sweets",
+                          "Ice Cream"
+                        ],
+                        "avgRating": 4.4,
+                        "feeDetails": {},
+                        "parentId": "7003",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "32K+",
+                        "sla": {
+                          "deliveryTime": 35,
+                          "minDeliveryTime": 35,
+                          "maxDeliveryTime": 40,
+                          "lastMileTravel": 4.5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "35-40 MINS",
+                          "lastMileTravelString": "4.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹66",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "63179",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "63179",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1034650",
+                        "name": "Prakasham Cafe Club",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "prakasham-cafe-club-bellandur-sarjapur-bellandur-sarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/26/9f4e852d-0db0-4124-a8eb-51df005e84b7_1034650.jpg",
+                        "address": "Shop No : 03 , Floor : 1st , No 88/B,Rukmini Venkataswamy Reddy Arcade , Rukmini Venkataswamy Reddy Arcade, Cherry Lane, Bellandur, Bengaluru, Karnataka, India",
+                        "locality": "Bellandur Sarjapur",
+                        "areaName": "Bellandur Sarjapur",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": ["South Indian"],
+                        "feeDetails": {},
+                        "parentId": "602259",
+                        "avgRatingString": "--",
+                        "sla": {
+                          "deliveryTime": 34,
+                          "minDeliveryTime": 30,
+                          "maxDeliveryTime": 35,
+                          "lastMileTravel": 4.6,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "30-35 MINS",
+                          "lastMileTravelString": "4.6 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseMessage": "Closes soon",
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "1034650",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "1034650",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "450664",
+                        "name": "Chaayos Chai+Snacks=Relax",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "chaayos-meri-wali-chai-whitefield-ck-blr-kadugodi",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/dfbcecfc-b380-4648-930a-b9b56b21e781_450664.JPG",
+                        "address": "Unit No 8,G-Location,White Field Hub, Thubarahalli, Varthur Rd, Bangalore Karnataka 560066",
+                        "locality": "Whitefield",
+                        "areaName": "Whitefield",
+                        "costForTwo": "25000",
+                        "costForTwoMessage": "₹250 FOR TWO",
+                        "cuisines": [
+                          "Bakery",
+                          "Beverages",
+                          "Chaat",
+                          "Desserts",
+                          "Home Food",
+                          "Italian",
+                          "Maharashtrian",
+                          "Snacks",
+                          "Street Food",
+                          "Sweets"
+                        ],
+                        "avgRating": 4.5,
+                        "feeDetails": {},
+                        "parentId": "281782",
+                        "avgRatingString": "4.5",
+                        "totalRatingsString": "3.8K+",
+                        "sla": {
+                          "deliveryTime": 31,
+                          "minDeliveryTime": 30,
+                          "maxDeliveryTime": 35,
+                          "lastMileTravel": 6,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "30-35 MINS",
+                          "lastMileTravelString": "6.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹84",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.2",
+                            "ratingCount": "776"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "450664",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "qrEnabled": "false",
+                          "restaurant_id": "450664",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "731391",
+                        "name": "Lunch and Dinner",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "lunch-and-dinner-btm-btm",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "36d0269bbffdeec5a3f9b15c108a423a",
+                        "address": "WJF8+6G6, Old Madiwala, Madiwala, 1st Stage, BTM 1st Stage, Bengaluru, Karnataka 560068, India",
+                        "locality": "Madiwala",
+                        "areaName": "BTM",
+                        "costForTwo": "29900",
+                        "costForTwoMessage": "₹299 FOR TWO",
+                        "cuisines": ["Indian"],
+                        "avgRating": 2.7,
+                        "feeDetails": {},
+                        "parentId": "126827",
+                        "avgRatingString": "2.7",
+                        "totalRatingsString": "4",
+                        "sla": {
+                          "deliveryTime": 73,
+                          "minDeliveryTime": 70,
+                          "maxDeliveryTime": 75,
+                          "lastMileTravel": 10.6,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "70-75 MINS",
+                          "lastMileTravelString": "10.6 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {},
+                        "sld": true,
+                        "aggregatedDiscountInfoV3": {
+                          "header": "30% OFF",
+                          "subHeader": "UPTO ₹75",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_3",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "731391",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "731391",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "true"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1071450",
+                        "name": "Daily Lunch Wala",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "daily-lunch-wala-whitefield-whitefield",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/29/5be6ccfc-d47a-433f-8bc5-524d3b436666_1071450.jpg",
+                        "address": "Bangalore Whitefield Hoodi Basavanagar Masjid Road, Karnataka ,,Mahadevapura,B.B.M.P East,Karnataka-560048\t",
+                        "locality": "Whitefield",
+                        "areaName": "Whitefield",
+                        "costForTwo": "30000",
+                        "costForTwoMessage": "₹300 FOR TWO",
+                        "cuisines": ["North Indian"],
+                        "feeDetails": {},
+                        "parentId": "623389",
+                        "avgRatingString": "NEW",
+                        "sla": {
+                          "deliveryTime": 48,
+                          "minDeliveryTime": 45,
+                          "maxDeliveryTime": 50,
+                          "lastMileTravel": 10.1,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "45-50 MINS",
+                          "lastMileTravelString": "10.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "sld": true,
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "1071450",
+                        "impressionObjectName": "impression-restaurant-sld",
+                        "clickObjectName": "click-restaurant-sld"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "source": "SEARCH",
+                          "isSld": "true",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "1071450",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "297772",
+                        "name": "The Big Barbeque",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "sri-mookambika-foods-(the-big-barbeque)-attibele-attibele",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "3892541e34c4da3eba646e0ab9137b37",
+                        "address": "2Nd Floor, 915/88, Ward No 85, Munnekololu Village Outer Ring Road,Marathalli Varthur Hobli, Bangalore, Bengaluru (Bangalore) Urban,Karnataka, 560037",
+                        "locality": "Munnekollal",
+                        "areaName": "Marathahalli",
+                        "costForTwo": "59900",
+                        "costForTwoMessage": "₹599 FOR TWO",
+                        "cuisines": ["Biryani", "Seafood"],
+                        "avgRating": 3.6,
+                        "feeDetails": {},
+                        "parentId": "205280",
+                        "avgRatingString": "3.6",
+                        "totalRatingsString": "1.4K+",
+                        "sla": {
+                          "deliveryTime": 51,
+                          "minDeliveryTime": 50,
+                          "maxDeliveryTime": 55,
+                          "lastMileTravel": 4.4,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "50-55 MINS",
+                          "lastMileTravelString": "4.4 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseMessage": "Closes soon",
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹121 OFF",
+                          "subHeader": "ABOVE ₹199",
+                          "discountTag": "FLAT DEAL",
+                          "logoCtx": {
+                            "text": "BENEFITS"
+                          }
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.4",
+                            "ratingCount": "15K+"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "297772",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "297772",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1104099",
+                        "name": "Sridevi Biryani With Toppings",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "sridevi-biryani-with-toppings-koramangala-koramangala",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/7/1/5965cfef-434e-4e9f-8faa-c85986ea8b24_1104099 (1).jpg",
+                        "address": "No.25, GROUND , FIRST AND SECOND FLOOR , 4TH B CROSS, INDUSTRIAL LAYOUT KORAMANGALA, BENGALURU ,BTM Layout,B.B.M.P South,Karnataka-560034\t",
+                        "locality": "Koramangala",
+                        "areaName": "Koramangala",
+                        "costForTwo": "80000",
+                        "costForTwoMessage": "₹800 FOR TWO",
+                        "cuisines": ["Biryani", "South Indian"],
+                        "avgRating": 4.5,
+                        "feeDetails": {},
+                        "parentId": "641380",
+                        "avgRatingString": "4.5",
+                        "totalRatingsString": "17",
+                        "sla": {
+                          "deliveryTime": 63,
+                          "minDeliveryTime": 60,
+                          "maxDeliveryTime": 65,
+                          "lastMileTravel": 12.9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "60-65 MINS",
+                          "lastMileTravelString": "12.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "1104099",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "1104099"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1103762",
+                        "name": "Brau Galie Microbrewery",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "brau-galie-microbrewery-koramangala-koramangala",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/27/025f8337-62bf-4729-8d3d-a0f72230ad6e_1103762.jpg",
+                        "address": "No.25, GROUND , FIRST AND SECOND FLOOR , 4TH B CROSS, INDUSTRIAL LAYOUT KORAMANGALA, BENGALURU ,BTM Layout,B.B.M.P South,Karnataka-560034\t",
+                        "locality": "Koramangala",
+                        "areaName": "Koramangala",
+                        "costForTwo": "120000",
+                        "costForTwoMessage": "₹1200 FOR TWO",
+                        "cuisines": [
+                          "Chinese",
+                          "Biryani",
+                          "Continental",
+                          "Pan-Asian",
+                          "Indian",
+                          "Tandoor",
+                          "Kebabs",
+                          "Pizzas",
+                          "Pastas",
+                          "North Indian"
+                        ],
+                        "avgRating": 3.9,
+                        "feeDetails": {},
+                        "parentId": "641212",
+                        "avgRatingString": "3.9",
+                        "totalRatingsString": "5",
+                        "sla": {
+                          "deliveryTime": 68,
+                          "minDeliveryTime": 65,
+                          "maxDeliveryTime": 70,
+                          "lastMileTravel": 12.9,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "65-70 MINS",
+                          "lastMileTravelString": "12.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {}
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {},
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "1103762",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "1103762"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1162363",
+                        "name": "Annapurna Andhra Mess",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "annapurna-andhra-mess-marathahalli-marathahalli",
+                          "city": "bangalore"
+                        },
+                        "address": "No.1320, Kundalahalli Gate, Kumarapalli, Kundaralli Main Road, Whitefeild , Bengaluru ,,Mahadevapura,B.B.M.P East,Karnataka-560066\t",
+                        "locality": "Marathahalli",
+                        "areaName": "Marathahalli",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": [
+                          "Chinese",
+                          "Andhra",
+                          "Biryani",
+                          "South Indian"
+                        ],
+                        "feeDetails": {},
+                        "parentId": "33997",
+                        "avgRatingString": "NEW",
+                        "sla": {
+                          "deliveryTime": 35,
+                          "minDeliveryTime": 30,
+                          "maxDeliveryTime": 35,
+                          "lastMileTravel": 5,
+                          "serviceability": "SERVICEABLE_WITH_BANNER",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "30-35 MINS",
+                          "lastMileTravelString": "5.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "opened": true,
+                          "restaurantClosedMeta": {
+                            "title": "UNAVAILABLE",
+                            "subtitle": "AT THE MOMENT"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "unorderableMessage": "Currently not taking orders for this location",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "availabilityServiceabilityMessage": "Currently not accepting orders from your location for this outlet",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "UNAVAILABLE"
+                          },
+                          "message": {
+                            "text": "Currently not accepting orders in your location",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "1162363",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "1162363",
+                          "query": "lunch"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "635403",
+                        "name": "Indian Lunch Box",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "indian-lunch-box-bellandur-sarjapur-bellandur-sarjapur",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "5b8b0684c0a53cff288551ccc6505ba0",
+                        "address": "POLT NO.55, 2ND FLOOR, above chief bekar cake shops, HOSA ROAD KASAVANAHALLI, ABOVE GLAM STUDIOS UNISEX SALON - BENGALURU, INDIA ,,Mahadevapura,B.B.M.P East,Karnataka-560035",
+                        "locality": "Hosa Road",
+                        "areaName": "kasavanahalli",
+                        "costForTwo": "15000",
+                        "costForTwoMessage": "₹150 FOR TWO",
+                        "cuisines": ["Indian"],
+                        "avgRating": 4.5,
+                        "feeDetails": {},
+                        "parentId": "383819",
+                        "avgRatingString": "4.5",
+                        "totalRatingsString": "41",
+                        "sla": {
+                          "deliveryTime": 41,
+                          "minDeliveryTime": 40,
+                          "maxDeliveryTime": 45,
+                          "lastMileTravel": 7.5,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "40-45 MINS",
+                          "lastMileTravelString": "7.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "TEMPORARILY"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "unorderableMessage": "Temporarily closed for delivery",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_5",
+                        "availabilityServiceabilityMessage": "Temporarily closed for delivery",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Outlet not accepting orders at the moment",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "635403",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "635403",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "1121213",
+                        "name": "SRI MAHA SHIVA SHAKTHI LUNCH HOME",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "sri-maha-shiva-shakthi-lunch-home-hsr-hsr",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/13/a7de37cb-ccf1-488a-ba14-cde602fec7d4_1121213.JPG",
+                        "address": "Shop No : Shop 8/9 , Floor : Ground , Thirumalappa complex hosapalya Main road , Mangammanapalya Main Road Hosapalaya, Muneshwara Nagar, Bengaluru, Karnataka 560068, India 560068",
+                        "locality": "HSR",
+                        "areaName": "HSR",
+                        "costForTwo": "40000",
+                        "costForTwoMessage": "₹400 FOR TWO",
+                        "cuisines": ["Biryani", "Kebabs"],
+                        "feeDetails": {},
+                        "parentId": "646268",
+                        "avgRatingString": "NEW",
+                        "sla": {
+                          "deliveryTime": 46,
+                          "minDeliveryTime": 45,
+                          "maxDeliveryTime": 50,
+                          "lastMileTravel": 9.7,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "45-50 MINS",
+                          "lastMileTravelString": "9.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 8:30 am, tomorrow",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR TODAY"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "unorderableMessage": "Opens next at 8:30 am, tomorrow",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 8:30 am, tomorrow",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens tomorrow at 8:30 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "1121213",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "restaurant_id": "1121213",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false",
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false"
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                      "info": {
+                        "id": "224710",
+                        "name": "New Mangalore Lunch Home",
+                        "city": "1",
+                        "slugs": {
+                          "restaurant": "new-mangalore-lunch-home-hsr-hsr",
+                          "city": "bangalore"
+                        },
+                        "cloudinaryImageId": "u8xe7jw8mvkksau2pg5q",
+                        "address": "NO 22,VENKATAPURA MAIN ROAD,8THCROSS,KORAMANGALA 1ST BLOCK,BTM LAYOUT,B.B.M.P SOUTH, BANGALORE, KARNATAKA - 560034",
+                        "locality": "HSR Layout",
+                        "areaName": "HSR Layout",
+                        "costForTwo": "20000",
+                        "costForTwoMessage": "₹200 FOR TWO",
+                        "cuisines": ["Beverages", "Chinese", "Indian"],
+                        "avgRating": 3.4,
+                        "feeDetails": {},
+                        "parentId": "147232",
+                        "avgRatingString": "3.4",
+                        "totalRatingsString": "892",
+                        "sla": {
+                          "deliveryTime": 45,
+                          "minDeliveryTime": 45,
+                          "maxDeliveryTime": 50,
+                          "lastMileTravel": 8.4,
+                          "serviceability": "SERVICEABLE",
+                          "rainMode": "RAIN_MODE_NONE",
+                          "slaString": "45-50 MINS",
+                          "lastMileTravelString": "8.4 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextOpenTimeMessage": "Opens next at 11:30 am, tomorrow",
+                          "restaurantClosedMeta": {
+                            "title": "CLOSED",
+                            "subtitle": "FOR TODAY"
+                          }
+                        },
+                        "aggregatedDiscountInfo": {
+                          "visible": true
+                        },
+                        "badges": {},
+                        "unorderableMessage": "Opens next at 11:30 am, tomorrow",
+                        "aggregatedDiscountInfoV2": {
+                          "visible": true
+                        },
+                        "ratingSlab": "RATING_SLAB_4",
+                        "availabilityServiceabilityMessage": "Currently closed for delivery. Opens next at 11:30 am, tomorrow",
+                        "orderabilityCommunication": {
+                          "title": {
+                            "text": "CURRENTLY"
+                          },
+                          "subTitle": {
+                            "text": "CLOSED"
+                          },
+                          "message": {
+                            "text": "Opens tomorrow at 11:30 AM",
+                            "textColour": "primary"
+                          },
+                          "customIcon": {
+                            "bgGradientColorStart": "#EB8322",
+                            "bgGradientColorEnd": "#EE5803"
+                          },
+                          "commsStyling": {}
+                        },
+                        "cartOrderabilityNudgeBanner": {
+                          "parameters": {},
+                          "presentation": {}
+                        },
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "4.3",
+                            "ratingCount": "1.2K+"
+                          },
+                          "source": "GOOGLE",
+                          "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+                        "featuredSectionInfo": {
+                          "sectionTitle": "More"
+                        }
+                      },
+                      "analytics": {
+                        "screenName": "explore",
+                        "context": "{\"tid\":\"\",\"grid\":\"8ecb0866-83a7-48eb-9f6e-8e64b9b422bd\",\"queryUniqueId\":\"\",\"query\":\"lunch\"}",
+                        "objectValue": "224710",
+                        "impressionObjectName": "impression-restaurant",
+                        "clickObjectName": "click-restaurant"
+                      },
+                      "ctaWithParams": {
+                        "link": "swiggy://menu",
+                        "type": "DEEPLINK",
+                        "params": {
+                          "sourceRequestId": "688e460bd66a3590cd3733e1b9771607",
+                          "qrEnabled": "false",
+                          "restaurant_id": "224710",
+                          "query": "lunch",
+                          "sourceSessionId": "m2m44886-b401-4c02-8a00-65f9ff041557",
+                          "source": "SEARCH",
+                          "isSld": "false"
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true
+  },
+  "tid": "62da3c5c-cba0-4fad-a1e3-712d8bcdb408",
+  "sid": "m2m44886-b401-4c02-8a00-65f9ff041557",
+  "deviceId": "aaea3fd3-c2d7-0da2-f9cc-76d7520013c3",
+  "csrfToken": "mLdgZjEixzHK-dTLcwc_m_uYWA7FlbGolBQtnp-4"
+}

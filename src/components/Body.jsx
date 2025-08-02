@@ -42,8 +42,6 @@ const Body = () => {
     setFilteredResturant(updatedList);
   };
 
-  console.log(coords);
-
   if (useOnlineStatus() === false)
     return <p>Check your internent connection</p>;
 

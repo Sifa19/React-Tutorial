@@ -4,7 +4,7 @@ function Search({ listOfResturant, setFilteredResturant }) {
   const [searchText, setSearchText] = useState("");
   console.log("search render");
   return (
-    <div className="flex items-center justify-center">
+    <div data-testid="search" className="flex items-center justify-center">
       <input
         className="
         border border-gray-950 
