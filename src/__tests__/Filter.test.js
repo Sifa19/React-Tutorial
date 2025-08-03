@@ -64,8 +64,13 @@ So, in the test, we simulate what the browser would do: we call the successCallb
     }));
 });
 
-describe("Stimulation of search functionality", () => {
-  it("should search resturant with name lunch", async () => {
+afterAll(() => {});
+// Runs only once after all tests in a describe block
+afterEach(() => {});
+// Runs after every individual test inside a describe
+
+describe("Stimulation of Filter functionality", () => {
+  it("should filter resturant with name lunch", async () => {
     //act : ensures all updates to components and state
     // are processed before making assertions
     await act(async () =>
