@@ -34,7 +34,7 @@ function Card({ data }) {
         />
       </div>
       <div className="px-6 pt-4 flex flex-col gap-2">
-        <h3 data-testid="res-name" className="font-bold">
+        <h3 data-testid="resName" className="font-bold">
           {name}
         </h3>
         <span className="text-sm">

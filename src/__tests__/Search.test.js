@@ -1,7 +1,13 @@
 /// <reference types="jest" />
 /// <reference types="@testing-library/jest-dom" />
 
-import { act, render, screen, waitFor } from "@testing-library/react";
+import {
+  act,
+  fireEvent,
+  render,
+  screen,
+  waitFor,
+} from "@testing-library/react";
 import "@testing-library/jest-dom";
 import Body from "../components/Body";
 import data from "./mocks/Body.json";
@@ -59,7 +65,7 @@ So, in the test, we simulate what the browser would do: we call the successCallb
 });
 
 describe("Stimulation of search functionality", () => {
-  it("should rednder the Body Component with search bar", async () => {
+  it("should search resturant with name lunch", async () => {
     //act : ensures all updates to components and state
     // are processed before making assertions
     await act(async () =>
@@ -70,9 +76,17 @@ describe("Stimulation of search functionality", () => {
       )
     );
 
-    await waitFor(() => {
-      const searchBtn = screen.getByTestId("search");
-      expect(searchBtn).toBeInTheDocument();
-    });
+    const cardsBeforeSearch = screen.getAllByTestId("resName");
+    expect(cardsBeforeSearch.length).toBe(26);
+
+    const searchBtn = screen.getByTestId("search");
+    expect(searchBtn).toBeInTheDocument();
+    const searchInput = screen.getByTestId("searchInput");
+
+    fireEvent.change(searchInput, { target: { value: "lunch" } });
+    fireEvent.click(searchBtn);
+
+    const cards = screen.getAllByTestId("resName");
+    expect(cards.length).toBe(7);
   });
 });
