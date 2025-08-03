@@ -38,7 +38,11 @@ function Cart() {
           {items.map((item) => {
             const { id, name, price, isVeg } = item;
             return (
-              <div key={id} className="flex  items-center py-2 ">
+              <div
+                data-testid="itemsAddedToCart"
+                key={id}
+                className="flex  items-center py-2 "
+              >
                 <div className="w-[65%]">
                   <span>{isVeg ? "🟢" : "🔴"}</span>
                   <span>{name}</span>
@@ -63,6 +67,7 @@ function Cart() {
             );
           })}
           <button
+            data-testid="clearCart"
             className="w-full border border-stone-200
                font-semibold py-2 text-sm tracking-widest
                shadow cursor-pointer hover:bg-stone-200"

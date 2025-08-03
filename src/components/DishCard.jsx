@@ -20,7 +20,10 @@ function DishCard({ data, resturantDetails }) {
 
   if (inStock <= 0) return;
   return (
-    <div className="p-4 h-[200px] w-full mb-4 flex justify-between  border-b-2 border-stone-200">
+    <div
+      data-testid="foodItems"
+      className="p-4 h-[200px] w-full mb-4 flex justify-between  border-b-2 border-stone-200"
+    >
       <div className="w-[70%] flex flex-col gap-1">
         <span className="font-medium">{isVeg ? "🟢 Veg" : "🔴 Non-Veg"}</span>
         <span className="font-bold">{name}</span>

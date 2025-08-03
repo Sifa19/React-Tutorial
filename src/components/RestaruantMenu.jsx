@@ -9,6 +9,8 @@ function RestaruantMenu() {
   const restaurantInfo = useRestaurantMenu(resId);
   const [showIndex, setShowIndex] = useState(0);
 
+  console.log(restaurantInfo);
+
   if (restaurantInfo === null) return <h1>Loading : Shimmer Ui</h1>;
 
   const categories =

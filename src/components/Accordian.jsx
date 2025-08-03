@@ -20,9 +20,7 @@ function Accordian({
           setShowIndex(show ? null : index);
         }}
       >
-        <span>
-          {title} ({items.length})
-        </span>
+        {title} ({items.length})
         <FontAwesomeIcon icon={show ? faChevronUp : faChevronDown} />
       </button>
 

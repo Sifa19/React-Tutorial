@@ -38,7 +38,11 @@ function Header() {
         <li className="relative">
           <Link to="/cart">
             <FontAwesomeIcon icon={faCartShopping} />
-            <span className="absolute text-xs font-medium" title="cart">
+            <span
+              data-testid="cartItems"
+              className="absolute text-xs font-medium"
+              title="cart"
+            >
               {noCartItems}
             </span>
           </Link>
