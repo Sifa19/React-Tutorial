@@ -9,13 +9,13 @@ function Filter({ listOfResturant, setFilteredResturant, setRatingFilter }) {
         setFilteredResturant={setFilteredResturant}
       />
       <div className="flex items-center justify-center gap-4">
-        <button onClick={() => setRatingFilter(4.5)}>
+        <button data-testid="starRating" onClick={() => setRatingFilter(4.5)}>
           <StarRating rating={4.5} />
         </button>
-        <button onClick={() => setRatingFilter(4)}>
+        <button data-testid="starRating" onClick={() => setRatingFilter(4)}>
           <StarRating rating={4} />
         </button>
-        <button onClick={() => setRatingFilter(3.5)}>
+        <button data-testid="starRating" onClick={() => setRatingFilter(3.5)}>
           <StarRating rating={3.5} />
         </button>
       </div>

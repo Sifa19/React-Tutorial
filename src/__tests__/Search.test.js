@@ -89,4 +89,33 @@ describe("Stimulation of search functionality", () => {
     const cards = screen.getAllByTestId("resName");
     expect(cards.length).toBe(7);
   });
+
+  it("should filter resturant with 4.5  and above ratings", async () => {
+    await act(async () => {
+      render(
+        <BrowserRouter>
+          <Body />
+        </BrowserRouter>
+      );
+    });
+
+    const cardsBeforeFilter = screen.getAllByTestId("resName");
+    expect(cardsBeforeFilter.length).toBe(26);
+
+    const filterBtn = screen.getAllByTestId("starRating");
+    const fourStarRatingBtn = filterBtn[0];
+    console.log(filterBtn);
+    expect(fourStarRatingBtn).toBeInTheDocument();
+
+    // fire the click
+    act(() => {
+      fireEvent.click(fourStarRatingBtn);
+    });
+
+    // wait for DOM to reflect change
+    await waitFor(() => {
+      const cardsAfterFilter = screen.getAllByTestId("resName");
+      expect(cardsAfterFilter.length).toBe(5);
+    });
+  });
 });
